@@ -16,11 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans bg-white">
-        <div className="laptop:hidden flex flex-col justify-center items-center">
+        {/* <div className="laptop:hidden flex flex-col justify-center items-center">
           <p className="text-primary text-lg mt-24">View On Larger Browser</p>
           <p className="text-sm">Designed for Desktop Only</p>
-        </div>
-        <div className="hidden laptop:flex absolute w-full flex-col">
+        </div> */}
+        <div className="flex absolute w-full flex-col">
           <Navbar />
           {children}
           <Footer />
