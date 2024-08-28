@@ -1,4 +1,8 @@
-import { ShoppingCartIcon, UserIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  ShoppingCartIcon,
+  UserIcon,
+} from "@heroicons/react/24/outline";
 import helloEyes from "../app/images/helloEyes.png";
 
 import Image from "next/image";
@@ -26,8 +30,11 @@ const Navbar = () => {
     <div className="max-h-screen h-fit min-h-0 w-full absolute z-10">
       <header className="bg-black h-[60px] w-full">
         <div className="max-w-[1920px] h-full mx-auto flex flex-1 justify-start items-center">
+          <button className="relative h-full flex flex-col justify-center mx-5 text-white hover:text-accent laptop:hidden">
+            <Bars3Icon className="size-6" />
+          </button>
           <Image
-            className="hover:cursor-pointer h-[26px] w-fit tablet:h-[36px] laptop:mx-[60px] mr-[60px]"
+            className="h-[26px] tablet:h-[36px] laptop:mx-[60px] hover:cursor-pointer w-fit mr-[60px]"
             alt="Your Company Here Logo"
             src={helloEyes}
           />

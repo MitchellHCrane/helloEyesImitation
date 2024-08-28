@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Cart() {
   return (
-    <main className="tablet:container bg-white text-black  mt-[60px] container laptop:px-16 min-h-[400px] mx-auto px-[20px] tablet:px-[40px]">
+    <main className="md:container bg-white text-black  mt-[60px] laptop:px-16 min-h-[400px] px-[20px] tablet:px-[40px]">
       <div className="mt-5 text-5xl mb-10 tablet:my-10 desktop:my-[60px]">
         Your cart is empty
       </div>

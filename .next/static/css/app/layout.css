@@ -578,44 +578,6 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.container{
-  width: 100%;
-}
-@media (min-width: 640px){
-
-
-  .container{
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px){
-
-
-  .container{
-    max-width: 768px;
-  }
-}
-@media (min-width: 1101px){
-
-
-  .container{
-    max-width: 1101px;
-  }
-}
-@media (min-width: 1536px){
-
-
-  .container{
-    max-width: 1536px;
-  }
-}
-@media (min-width: 1601px){
-
-
-  .container{
-    max-width: 1601px;
-  }
-}
 .absolute{
   position: absolute;
 }
@@ -635,6 +597,10 @@ video {
 .my-auto{
   margin-top: auto;
   margin-bottom: auto;
+}
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 .mb-10{
   margin-bottom: 2.5rem;
@@ -1050,59 +1016,6 @@ body {
     padding: .75rem;
     position: sticky;
     right: 0;
-}
-
-@media (min-width: 768px){
-
-
-  .tablet\:container{
-    width: 100%;
-  }
-
-
-  @media (min-width: 640px){
-
-
-    .tablet\:container{
-      max-width: 640px;
-    }
-  }
-
-
-  @media (min-width: 768px){
-
-
-    .tablet\:container{
-      max-width: 768px;
-    }
-  }
-
-
-  @media (min-width: 1101px){
-
-
-    .tablet\:container{
-      max-width: 1101px;
-    }
-  }
-
-
-  @media (min-width: 1536px){
-
-
-    .tablet\:container{
-      max-width: 1536px;
-    }
-  }
-
-
-  @media (min-width: 1601px){
-
-
-    .tablet\:container{
-      max-width: 1601px;
-    }
-  }
 }
 
 .hover\:cursor-pointer:hover{
